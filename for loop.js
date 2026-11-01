@@ -1,16 +1,14 @@
-for (var i = 1; i <= 3; i++){
-    console.log(i)
-}
-for (var i = 10; i > 0; i--){
-    console.log(i)
-}
-console.log("happy new year")
-
-console.log('Counting completed!')
-for (var i = 1; i <= 5 ; i++){
-    console.log(i)
-}
-for (var i = 5; i > 0; i--){
-    console.log(i)
-}
-console.log("Countdown finished");
+for (var i = 1; i < 4 ; i++){
+    if (i == 1){
+        console.log("GOLD medal")
+    }
+    else if (i == 2){
+        console.log("Silver medal")
+    }
+    else if (i == 3){
+        console.log("Broze medal")
+    }
+    else{
+        console.log(i)
+    }
+};
