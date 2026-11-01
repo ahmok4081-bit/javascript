@@ -23,3 +23,18 @@ switch (day) {
     default:
         console.log("There is no such day");
 }
+for (var i = 1; i < 4; i++) {
+  switch(i) {
+    case 1:
+      console.log("Gold medal");
+      break;
+    case 2:
+      console.log("Silver medal");
+      break;
+    case 3:
+      console.log("Bronze medal");
+      break;
+    default:
+      console.log(i);
+  }
+}
