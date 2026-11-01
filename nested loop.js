@@ -4,3 +4,8 @@ for (var year = 2023; year < 2025; year++){
         console.log("--------", month)
     }
 }
+for (firstnum = 0; firstnum < 3; firstnum++){
+    for (secondnum = 0; secondnum < 10; secondnum++){
+        console.log(firstnum+"time" + secondnum + "equal" + firstnum * secondnum );
+};
+    }
